@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* button */
+#btn-info{
+    background-color: blueviolet;
+    border-radius: 10px ;
+    border-color: blueviolet;
+    padding: 10px 45px ;
+    color: white;
+}
+.btn-danger{
+    background-color: #bd0001;
+    border-radius: 10px ;
+    border-color: #bd0001;
+    padding: 10px 45px ;
+    color: white;
+}
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 10px ;
+    border-color: #bd0001;
+    padding: 10px 45px ;
+    color: #bd0001;
+}
+#hero{
+    background-image: url('../images/bg-hero1.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.nav-item .nav-link{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active{
+    background-color: white;
+    /* border-bottom: 2px solid #e79d36; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+
+
+}
+
+.text-nav-active{
+    color: black;
+}
+
+
+
+.hero-title{
+   padding-top: 200px;
+
+}
+
+/* .hero-text{
+    font-size: 65px;
+    font-weight: 600;
+
+} */
+
+/* Responsive layar  kecil 450*/
+@media screen and  (min-width:450px){
+    .hero-text{
+         font-size: 65px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive layar  kecil 550*/
+@media screen and  (min-width:550px){
+    .hero-text{
+         font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive layar  kecil 800 */
+@media screen and  (min-width:800px){
+    .hero-text{
+         font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+
+.stripe{
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+#video{
+    background-image: url("../images/il-bg-video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax{
+    background-image: url("../images/li-bgfoto.jpeg");
+}
+
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+}
+.stripe-merah{
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+.kanan{
+    text-align: right;
+}
